@@ -1,0 +1,14 @@
+pandas
+openpyxl
+python-docx
+pdfplumber
+pymupdf
+pydantic
+scikit-learn
+chromadb
+sentence-transformers
+rank-bm25
+google-genai
+streamlit
+tabulate
+python-dotenv

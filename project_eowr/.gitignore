@@ -1,0 +1,24 @@
+# Environment variables — NEVER commit this
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# ChromaDB vector database — generated at runtime, don't commit
+retrieval/vector_db/
+
+# Generated model and data files — large, regeneratable
+generators/classifier_model.pkl
+generators/training_data.csv
+
+# Your real documents — too large and confidential for Git
+data/
+
+# Test sample files (optional — remove these lines if you want them in Git)
+# tests/
+
+# OS files
+.DS_Store
+Thumbs.db
